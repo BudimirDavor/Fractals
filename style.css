@@ -1,0 +1,41 @@
+    body{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+    font-weight:900;
+    }
+    #canv{
+    border:1px solid transparent;
+    width:100vw;
+    height:100vh;
+    }
+    input, #angle, #but{
+    display:block;
+    margin:auto;
+    }
+    #angle{
+    text-align:center;
+    margin:5px auto;
+    color:#1A7781;
+    }
+    input{
+    margin:5px auto;
+    width:80%;
+    }
+    #but{
+    margin:5px auto;
+    color:#1A7781;
+    }
+    #container{
+    border:1px solid lightgray;
+    border-radius:5px;
+    position:relative;
+      top:-80px;
+    }
+    .note{
+    position:absolute;
+    font-weight:400;
+    font-size:14px;
+    display:none;
+    color:#1A7781;
+    }
